@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import {ERouteNames} from '../../app-routing.module';
 
 @Component({
     selector: 'app-signup',
@@ -15,7 +16,7 @@ export class SignupComponent implements OnInit {
     }
 
     navigate() {
-        this.router.navigate(['email-verify']);
+        this.router.navigate([ERouteNames.onboarding]);
     }
 
 }
