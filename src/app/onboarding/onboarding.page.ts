@@ -25,7 +25,7 @@ export class OnboardingPage implements OnInit {
       'Face ID enrollment',
     ];
     myEOnboardingStage = EOnboardingStage;
-    stage: EOnboardingStage = this.myEOnboardingStage.FaceId;
+    stage: EOnboardingStage = this.myEOnboardingStage.Email;
 
     constructor() {
     }
